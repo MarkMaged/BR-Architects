@@ -1,0 +1,269 @@
+/* start body style */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* end body style */
+/* start root */
+:root{
+    --main-font-family: arial;
+    --main-background-color : rgba(0,0,0,0.9);
+}
+/* end root */
+/* start style of header */
+#header{
+    border-bottom: 1px solid #cfcccc;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+    background-color: white;
+}
+/* end style of header */
+/* start style of pargraph in header */
+header p {
+    letter-spacing: 2px;
+    margin-left: 2%;
+    display: inline-block;
+    font-family: var(--main-font-family);
+}
+/* end style of pargraph in header */
+/* start style of main links in header */
+#mainlinks{
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+/* end style of main links in header */
+/* start style in the links in header */
+.links{
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: black;
+    font-family: var(--main-font-family);
+}
+/* start background section style */
+#background{
+    width: 100%;
+    height: 92vh;
+    background-image: url("imgs/architect.jpg");
+    background-size: 100% 92vh;
+}
+/* end background section style */
+/* start style of paragraph in background */
+#background-paragraph{
+    margin-top: 0%;
+    padding-top: 22%;
+    padding-left: 37%;
+    font-family: var(--main-font-family);
+    font-size: 40px;
+    color: white;
+    letter-spacing: 5px;
+}
+/* end style of paragraph in background */
+/* start style in BR in pargraph */
+section p b{
+    background-color: var(--main-background-color);
+    padding: 2%;
+}
+/* end style in BR in pargraph */
+/* start projects's section style */
+#projects{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+/* end projects's section style */
+/* start style in project paragraph */
+#project-par{
+    font-family: var(--main-font-family);
+    font-size: 25px;
+    margin-left: 1%;
+}
+/* end style in project paragraph */
+/* start style of class projectimg */
+.projects-imgs{
+    position: relative;
+    float: left;
+    width: 315px;
+    margin: 5px;
+}
+/* end style of class projectimg */
+/* start style of houses photo */
+.houses{
+    width: 100%;
+    
+    
+}
+/* end style of houses photo */
+/* start style of sumer house div */
+#summerhouse{
+    position: absolute;
+    font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
+    color: white;
+    padding: 1%;
+}
+/* end style of sumer house div */
+/* start style of brick house div */
+#brickhouse{
+    position: absolute;
+    font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
+    color: white;
+    padding: 1%;
+}
+/* end style of brick house div */
+/* start style of renovated div */
+#renovated{
+    position: absolute;
+    font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
+    color: white;
+    padding: 1%;
+}
+/* end style of renovated div */
+/* start style of barn house div */
+#barnhouse{
+    position: absolute;
+    font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
+    color: white;
+    padding: 1%;
+}
+/* start style of barn house div */
+/* start style of sumer house2 div */
+#summerhouse2{
+    position: absolute;
+    font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
+    color: white;
+    padding: 1%;
+}
+/* end style of sumer house2 div */
+/* start style of brick house2 div */
+#brickhouse2{
+    position: absolute;
+    font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
+    color: white;
+    padding: 1%;
+}
+/* end style of brick house2 div */
+/* start style of renovated2 div */
+#renovated2{
+    position: absolute;
+    font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
+    color: white;
+    padding: 1%;
+}
+/* end style of renovated2 div */
+/* start style of barn house2 div */
+#barnhouse2{
+    position: absolute;
+    font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
+    color: white;
+    padding: 1%;
+}
+/* end style of barn house2 div */
+.clear{
+    clear: both;
+}
+/* start artical style */
+#artical{
+    width: 95%;
+    margin: 3% ;
+}
+/* end artical style */
+/* start about style */
+#about{
+    font-family: var(--main-font-family);
+    font-size: 25px;
+}
+/* end about style */
+/* start style about paragraph */
+#about-paragraph{
+    font-family: var(--main-font-family);
+    color: rgba(0,0,0,0.8);
+}
+/* end style about paragraph */
+/* start div have people style */
+#people{
+    width: 96%;
+    margin: auto 2%;
+}
+/* end div have people style */
+/* start div have people information style */
+.people-info{
+    width: 22.5%;
+    float: left;
+    margin: 1% 1%;
+}
+/* end div have people information style */
+/* start div have people images style */
+.people-img{
+    width: 300px;
+    filter: grayscale(80%);
+}
+/* end div have people images style */
+/* start div have people paragraphs style */
+.p1{
+    font-family: var(--main-font-family);
+}
+.p2{
+    font-family: var(--main-font-family);
+    color: rgba(0, 0, 0, 0.5);
+}
+.p3{
+    font-family: var(--main-font-family);
+}
+/* end div have people paragraphs style */
+/* start button style */
+.contact-button{
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0);
+}
+/* end button style */
+/* start contact info style */
+#contact{
+    width: 96%;
+    margin: auto 3%;
+}
+/* end contact info style */
+/* start contact word style */
+#contact-word{
+    font-family: var(--main-font-family);
+    font-size: 25px;
+}
+/* end contact word style */
+/* start contact text style */
+#contact-text{
+    font-family: var(--main-font-family);
+    font-size: 15px;
+}
+/* end contact text style */
+/* start contact inputs style */
+.contact-inputs{
+    display: block;
+    width: 98%;
+    margin: 2% auto;
+    padding: 0.5%;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+/* end contact word style */
+/* start button send message's style */
+#sendmessagebutton{
+    padding: 1%;
+    background-color: black;
+    font-size: 17px;
+    font-family: var(--main-font-family);
+    color: white;
+}
+/* end button send message's style */
+/* start map image style */
+#map-imag{
+   margin: 2% 2% 1% 2%;
+   width: 96%;
+}
+/* end map image style */
